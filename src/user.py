@@ -1,5 +1,4 @@
 import bcrypt
-from typing import Optional
 
 class User:
     def __init__(self, user_id: int, username: str, password_hash: str, role: str):
